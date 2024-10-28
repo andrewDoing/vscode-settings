@@ -1,0 +1,118 @@
+{
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "yaml": true,
+      "csharp": true,
+      "svelte": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "github.copilot.advanced": {
+      "authProvider": "github"
+    },
+    "files.trimTrailingWhitespace": true,
+    "editor.accessibilitySupport": "off",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    // vim emulation settings
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": ["p"],
+        "commands": [ "editor.action.clipboardPasteAction", "extension.vim_escape"]
+      }, // paste over visual selection
+      {
+        "before": ["<C-i>"],
+        "commands": ["interactiveEditor.start"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["p"],
+        "commands": [ "editor.action.clipboardPasteAction", "extension.vim_escape"]
+      },
+      {
+        "before": ["y"],
+        "commands": [ "editor.action.clipboardCopyAction", "extension.vim_escape"]
+      },
+      {
+        "before": ["<C-i>"],
+        "commands": ["interactiveEditor.start"]
+      },
+      {
+        "before": ["J"],
+        "commands": ["editor.action.moveLinesDownAction"]
+      }, // moveLineDown
+      {
+        "before": ["K"],
+        "commands": ["editor.action.moveLinesUpAction"]
+      } // moveLineUp    "before": ["J"],
+    ],
+    "vim.smartRelativeLine": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "semantic-kernel.endpointsProvider": "AzureOpenAI",
+    "azureResourceGroups.selectedSubscriptions": [
+      "16b3c013-d300-468d-ac64-7eda0820b6d3/1196c45c-592b-49f8-bacf-e4b46a49d1e2"
+    ],
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.stickyScroll.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.profiles.osx": { "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] } },
+    "git.autofetch": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.inheritEnv": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "sonarlint.rules": {
+      "python:S5655": {
+        "level": "on"
+      }
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "python.languageServer": "Pylance",
+    "git.openRepositoryInParentFolders": "always",
+    "vscode-neovim.neovimExecutablePaths.linux": "/opt/homebrew/bin/nvim",
+    "extensions.experimental.affinity": {
+      "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.neovimClean": true,
+    "sonarlint.connectedMode.connections.sonarcloud": [
+      {
+        "organizationKey": "lobsterink",
+        "connectionId": "lobsterink"
+      }
+    ],
+    "github.copilot.preferredAccount": "andrewDoing",
+    "telemetry.telemetryLevel": "off",
+    "python.analysis.extraPaths": [],
+    //"http.proxySupport": "off",
+    //"http.proxyAuthorization": null
+  }
